@@ -1,4 +1,4 @@
-## Set alarm in JavaAcript
+## Set alarm in JavaScript
 
 #### Features
 * script is counting down the remaining time in seconds 
