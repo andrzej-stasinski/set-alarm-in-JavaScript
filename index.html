@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Alarm</title>
+	<script src="script.js"></script>		
+
+	<style>
+	body {
+		color: #444;
+	}
+	h3 {
+		color: green;
+	}
+	#alarm {
+		color: red;
+		position: absolute;
+		top:40%;
+		left:40%;
+		font-size: 50px;
+	}
+	.divAlarm {
+		font-size: 20px;
+	}
+	.divAlarm__input {
+		padding: 10px;
+		width: 100px;
+		font-size: inherit;
+	}
+	.divAlarm__btn {
+		padding: 10px;
+		font-size: inherit;
+	}
+	</style>
+
+</head>
+<body>
+
+	<h1>Zegar</h1>
+	<h2 id="zegar"></h2> 
+
+	<h1>Ustaw alarm w sekundach</h1>
+	<h2 id="stoper"></h2>
+
+	<h1 id="alarm"></h1>
+
+	<div class='divAlarm'>
+		<div id='error'></div>
+		<input type="text" id="ile" class='divAlarm__input'>
+		<button id="but" class='divAlarm__btn'>Ustaw alarm</button>		
+	</div>
+
+
+</body>
+</html>
