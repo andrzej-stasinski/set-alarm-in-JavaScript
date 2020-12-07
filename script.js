@@ -32,11 +32,16 @@ function stoper(czas) {
 		console.log(alarm);
 		alarm.innerHTML = "ALARM !!!";
 
-		var audio = new Audio('abc.mp3');
+		var audio = new Audio('alarm.mp3');
 		audio.play();
 	}
 	else
 		var stoper = setTimeout("stoper("+sec+")", 1000);
+	const inputReset = document.querySelector('#ile')
+	inputReset.addEventListener('click', () => {
+		const alarm = document.querySelector('#alarm')
+		alarm.innerText = ''
+	})
 }
 
 function start() {
@@ -57,6 +62,7 @@ function start() {
 			document.querySelector('#error').innerHTML = '';
 			stoper(value);
 		}
+
 	}
 }
 

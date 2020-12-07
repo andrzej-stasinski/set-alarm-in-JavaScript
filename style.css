@@ -6,10 +6,11 @@ h3 {
 }
 #alarm {
     color: red;
-    position: absolute;
+    /* position: absolute;
     top:40%;
-    left:40%;
+    left:40%; */
     font-size: 50px;
+    text-align: center;
 }
 .divAlarm {
     font-size: 20px;
