@@ -32,7 +32,8 @@ function stoper(czas) {
 		console.log(alarm);
 		alarm.innerHTML = "ALARM !!!";
 
-		var audio = new Audio('alarm.mp3');
+		// var audio = new Audio('./alarm/alarm_titit.mp3');
+		var audio = new Audio('./alarm/alarm_sound.mp3');
 		audio.play();
 	}
 	else
